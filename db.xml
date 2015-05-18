@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+	<table name="btPlayerBlock">
+		<field name="bID" type="I">
+			<key />
+			<unsigned />
+			<default value="0" />
+		</field>
+		<field name="playerFirstName" type="C" size="20"></field>
+		<field name="playerLastName" type="C" size="20"></field>
+		<field name="playerNumber" type="C" size="2"></field>
+		<field name="playerPosition" type="C" size="20"></field>
+		<field name="playerGrade" type="C" size="10"></field>
+		<field name="playerDescription" type="X"></field>
+	</table>
+</schema>
